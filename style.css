@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: darkturquoise;
+    text-shadow: 2px 2px 1px black;
+    font-size: 4vw;
+}
+body {
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box{
+    border: 2px solid black;
+    display: flex;
+    width: 95vw;
+   align-items: center;
+   justify-content: center;
+   padding: 10px;
+   flex-direction: column;
+   h3{
+    font-size: 3vw;
+   }
+}
+
+.btn{
+    margin-top: 10px;
+    height: 3vw;
+    font-size: 2vw;
+    background-color: darkturquoise;
+    border: none;
+    border-radius: 10px;
+    width: 30vw;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.row{
+    display: flex;
+   
+   font-size: 2vw;
+   label{
+    width: 100%;
+}
+
+    input{
+        width:100%;
+        height: 3vw;
+        font-size: 1.5vw;
+    }
+    margin: 1vw 0;
+}
+.card{
+    margin: 5vh 0 ;
+    width: 50vw;
+    background-color: blanchedalmond;
+    height: 20vw;
+    border: 2px solid black;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 2vw;
+border-radius: 2vw;
+
+}
+.icon{
+    height: 20vw;
+    width: 30vw;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:  2vw 0 0 2vw;
+    #card_img{
+        height:15vw;
+        width: 10vw;
+        object-fit: fill;
+        
+    }
+}
+.detail{
+    font-size: 2vw;
+    height: 20vw;
+    width: 70vw;
+    background-color: white;
+    border-radius:  0 2vw 2vw 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    label{
+        margin-left: 1vw;
+    }
+}
+.hide{
+    display: none;
+}
+
+
+@media (max-width: 590px) {
+   
+        input{
+           
+            font-size: 1vw;
+           
+        }
+        
+   
+}
+@media (max-width: 420px) {
+    .box{
+        width: 87vw;
+    }
+   
+    
+}
+@media (max-width: 270px) {
+    .box{
+        width: 83vw;
+    }
+    
+}
+@media (max-width: 180px) {
+    .box{
+        width: 78vw;
+    }
+    
+}
